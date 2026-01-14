@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-800 h-screen w-screen flex items-center justify-center">
+
+    <form action="/user/register" method="post" class="w-96 bg-gray-900 p-5 rounded-lg shadow-lg">
+
+        <div class="grid gap-6 mb-6">
+
+            <div>
+                <label for="first_name" class="block mb-2.5 text-sm font-medium text-white">
+                    Username
+                </label>
+                <input type="text" name="username" id="first_name"
+                    class="bg-gray-700 border border-gray-600 text-white text-sm rounded-md block w-full px-3 py-2.5 placeholder-gray-400"
+                    placeholder="Enter the Username" required />
+            </div>
+
+            <div>
+                <label for="email" class="block mb-2.5 text-sm font-medium text-white">
+                    Email address
+                </label>
+                <input type="email" name="email" id="email"
+                    class="bg-gray-700 border border-gray-600 text-white text-sm rounded-md block w-full px-3 py-2.5 placeholder-gray-400"
+                    placeholder="Enter the Email" required />
+            </div>
+
+            <div>
+                <label for="password" class="block mb-2.5 text-sm font-medium text-white">
+                    Password
+                </label>
+                <input type="password" name="password" id="password"
+                    class="bg-gray-700 border border-gray-600 text-white text-sm rounded-md block w-full px-3 py-2.5 placeholder-gray-400"
+                    placeholder="Enter the Password" required />
+            </div>
+
+            <button type="submit"
+                class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-md shadow focus:outline-none focus:ring-4 focus:ring-blue-300">
+                Submit
+            </button>
+
+        </div>
+
+        <div class="text-white flex justify-center">
+            <p>I have already an account ? <a class="text-blue-300 hover:text-blue-500 hover:underline" href="/user/login">Login</a></p>
+        </div>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+</body>
+
+</html>
