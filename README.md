@@ -1,5 +1,4 @@
 
-```markdown
 # 📁 DriveClone – Cloud File Storage Application (MERN Stack)
 
 DriveClone is a **full-stack cloud file storage web application** inspired by platforms like **Google Drive**.  
@@ -66,7 +65,6 @@ The objective of DriveClone is to:
 
 ---
 
----
 
 ## 🚀 Installation & Setup
 
@@ -75,8 +73,6 @@ The objective of DriveClone is to:
 git clone https://github.com/Guptadeepak1915/DriveClone.git
 cd DriveClone
 ````
-
----
 
 ### 2️⃣ Backend Setup
 
